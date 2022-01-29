@@ -2317,9 +2317,12 @@ input, select, textarea {
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
+			background: url("../../images/logo_light.png") no-repeat;
 		}
 
-			#header h1 span {
+			#header h1 a {
+				display: block;
+				width: 167px;
 				font-weight: 300;
 			}
 
@@ -2416,6 +2419,9 @@ input, select, textarea {
 			color: #fff;
 			padding: 2em 2.5em;
 			position: absolute;
+		}
+		#header.alt h1 {
+			background: url("../../images/logo_dark.png") no-repeat;
 		}
 
 			#header.alt nav {
