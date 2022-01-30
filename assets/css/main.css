@@ -2424,6 +2424,24 @@ input, select, textarea {
 			background: url("../../images/logo_dark.png") no-repeat;
 		}
 
+		#header .logo {
+			display: inline-flex;
+		}
+		#header .logo a {
+			text-decoration: none;
+			border-bottom: 0px;
+		}
+
+		#header.alt .logo-light,
+		#header:not(.alt) .logo-dark {
+			display: none;
+		}
+
+		#header:not(.alt) .logo-light,
+		#header.alt .logo-dark {
+			display: block;
+		}
+
 			#header.alt nav {
 				right: 2.5em;
 				top: 1.75em;
